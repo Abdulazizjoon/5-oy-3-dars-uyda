@@ -150,3 +150,73 @@
 //     let a = ism(students);
 //     console.log(a);
 
+//13-masala
+
+// function get(arr) {
+    
+//     let result=arr.map(function(value) {
+//         return value.score
+//     })
+
+    
+//     return result;
+// }
+
+
+// const students = [
+//     { name: 'Alice', age: 20, score: 85, status: 'active' },
+//     { name: 'Bob', age: 22, score: 92, status: 'inactive' },
+//     { name: 'Charlie', age: 23, score: 88, status: 'active' }
+//   ];
+
+    
+//     let a = get(students);
+//     console.log(a);
+
+//15-masala
+// function a(result, ad) {
+//     result.push(ad);
+//     return result;
+// }
+// let students = ["Ali", "Vali", "Hasan"];
+// let ad = "Husan";
+
+// students = a(students, ad);
+// console.log(students);
+
+
+
+//19-masala
+// function a(arr,student) {
+//     let result=arr.map(function(value) {
+//        if (value.name==student.name) {
+//         value=student
+//        }
+//         return value;
+//     })
+//     return result
+// }
+// const students = [
+//     { name: 'Alice', age: 20, score: 85, status: 'active' },
+//     { name: 'Bob', age: 22, score: 92, status: 'inactive' }
+//   ];
+// const updatedStudent = { name: 'Alice', age: 21, score: 90, status: 'active' };
+// console.log(a(students,updatedStudent));
+
+
+//20-masala
+// function a(arr,student) {
+//         let result=arr.map(function(value) {
+//            if (value.name==student.name) {
+//             value=student
+//            }
+//             return value;
+//         })
+//         return result
+//     }
+//     const students = [
+//         { name: 'Alice', age: 20, score: 85, status: 'active' },
+//         { name: 'Bob', age: 22, score: 92, status: 'inactive' }
+//       ];
+//     const updatedStudent = { name: 'Alice', age: 21, score: 90, status: 'active' };
+//     console.log(a(students,updatedStudent));
